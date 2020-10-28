@@ -103,7 +103,8 @@ rules.addEventListener('click', function() {
 
 });
 next_game.addEventListener('click',function(){
-  {location.href = "https://lahotikunal.github.io/lucky-7/";}
+    if(potValue<0)
+        {location.href = "https://lahotikunal.github.io/lucky-7/";}
 });
 //rules
 
@@ -156,7 +157,7 @@ button.addEventListener('click',function()
            }
         }
   if(potValue<0)
-  {alert("game over!!! not enough credit left if you want to play again refresh(f5)");}
+  {alert("game over!!! not enough credit left, please press play again");}
   document.getElementById("pot").innerHTML = potValue;
      
 });
