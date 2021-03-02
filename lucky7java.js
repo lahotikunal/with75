@@ -157,7 +157,7 @@ button.addEventListener('click',function()
            }
         }
   if(potValue<0)
-  {alert("game over!!! not enough credit left, please press play again");}
+  {alert("game over!!! not enough credit left,you have insurnce worth 75 units, plese press next game button");}
   document.getElementById("pot").innerHTML = potValue;
      
 });
